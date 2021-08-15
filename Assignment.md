@@ -32,7 +32,11 @@
 Make sure to read the 2 articles listed above on writing good commit messages. And come up with what you think would be a good commit message as an example.
 
 ```
-YOUR ANSWER
+brief but descriptive. a commit should also only be a singular change so that it is easy to see what was done and backtrack if it does not work.
+
+"changes were made to 'file' due to issue 'specific issue'. 'specify what was done and why'. 
+
+Any additional details such as the line # would help looking up the changes too. Plus comments within the file itself explaining the logic even further. 
 ```
 
 ### 2: Git Commands
@@ -40,55 +44,55 @@ YOUR ANSWER
 1. What is the command to initialize a directory into a Git repository?
 
 ```
-YOUR ANSWER
+git init
 ```
 
 2. What is the command to prepare a file to be committed?
 
 ```
-YOUR ANSWER
+git add 'fileName.fileType'
 ```
 
 3. Now that you have staged your changes, which command would need to commit them?
 
 ```
-YOUR ANSWER
+git commit -m "within the quotations if the message added to the commit"
 ```
 
 4. What is the command to publish your local changes to a remote repository?
 
 ```
-YOUR ANSWER
+git push origin main
 ```
 
 5. Which command would you use to check which files have been changed?
 
 ```
-YOUR ANSWER
+git log
 ```
 
 6. What is the git command to see a list of branches?
 
 ```
-YOUR ANSWER
+git branch
 ```
 
 7. What command would you use to create a new branch?
 
 ```
-YOUR ANSWER
+git checkout -b branchName
 ```
 
 8. What command would you use to change between branches?
 
 ```
-YOUR ANSWER
+git checkout branchName or git switch branchName
 ```
 
 9. Which command would you use to see the changes you have made to your files vs the last commit?
 
 ```
-YOUR ANSWER
+git diff fileName.fileType
 ```
 
 ## Submission Guidelines
